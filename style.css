@@ -1,0 +1,116 @@
+body{
+    background-image: linear-gradient(to bottom right,skyblue,rgb(71, 28, 211),
+    rgb(114, 50, 194),rgb(155, 39, 187),rgb(209, 26, 142),rgb(77, 3, 31));
+    align-items: center;
+    justify-items: center;
+}
+.page{
+    background-color:#dda15e;
+    height: auto;
+    width: 300px;
+    margin: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    border: 2px solid black;
+    box-shadow:0 0 20px black;
+    padding-bottom: 20px;
+}
+.info{
+    margin-left: 20px;
+}
+h2{
+    font-family: Arial;
+    font-weight: 800;
+    font-size: 30px;
+}
+.box1{
+    display: inline-flex;
+}
+.box2{
+    display: inline-flex;
+}
+.icon1{
+    height: 25px;
+    width: 22px;
+    background-image: url(user-solid.svg);
+}
+.icon2{
+    height: 25px;
+    width: 22px;
+    background-image:url(lock-solid.svg);
+}
+input{
+    width: 220px;
+    font-size: 15px;
+    padding-left: 5px;
+    margin-left: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    border-bottom: 2px solid black;
+}
+.forgot{
+    margin-left: 140px;
+    padding-top: 50px;
+    text-decoration: none;
+}
+button{
+    height: 40px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: black;
+    border-radius: 25px;
+    background-image: linear-gradient(to right,rgb(6, 41, 41),
+    rgb(31, 109, 109),rgb(52, 162, 162),rgb(59, 220, 220)) ;
+}
+button:hover{
+    border: 2px solid black;
+    box-shadow: 0 0 20px black;
+    transition: ease-in;
+    transition-duration: 0.3s;
+    background-image: linear-gradient(to right,#582f0e,#7f4f24,#936639,#a68a64);
+}
+.line-1{
+    padding-top: 10px;
+}
+.icons{
+    display: inline-flex;
+    height: 35px;
+    width: 100px ;
+}
+.facebook{
+    height: 27px;
+    width: 30px;
+    margin: 5px;
+    background-image: url(facebook-f-brands.svg);
+    background-size: cover;
+}
+.twitter{
+    height: 30px;
+    width: 47px;
+    margin: 5px;
+    background-image: url(twitter-brands.svg);
+    background-size: cover;
+}
+.google{
+    height: 25px;
+    width: 40px;
+    margin: 5px;
+    background-image: url(google-brands.svg);
+    background-size: cover;
+}
+.last-line{
+    margin-top: 40px;
+}
+.sign-up{
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
