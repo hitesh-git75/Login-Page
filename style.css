@@ -3,6 +3,7 @@ body{
     rgb(114, 50, 194),rgb(155, 39, 187),rgb(209, 26, 142),rgb(77, 3, 31));
     align-items: center;
     justify-items: center;
+    height:100vh;
 }
 .page{
     background-color:#dda15e;
