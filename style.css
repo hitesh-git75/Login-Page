@@ -3,7 +3,6 @@ body{
     rgb(114, 50, 194),rgb(155, 39, 187),rgb(209, 26, 142),rgb(77, 3, 31));
     align-items: center;
     justify-items: center;
-    height:100vh;
 }
 .page{
     background-color:#dda15e;
@@ -114,4 +113,7 @@ button:hover{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 20px;
+}
+@media screen and (max-width:450px){
+    height:950px;
 }
